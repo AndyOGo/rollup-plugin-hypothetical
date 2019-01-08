@@ -1,15 +1,20 @@
-# rollup-plugin-hypothetical [![npm][npm-image]][npm-url] [![Dependency Status][david-image]][david-url] [![Build Status][travis-image]][travis-url]
+# Attention
+
+This is an intentional temporary fork and publish until the `importer`'s windows-only path normalization issue is fixed in the original repo.
+https://github.com/Permutatrix/rollup-plugin-hypothetical/issues/5 
+
+# rollup-plugin-hypothetical-windows-fix [![npm][npm-image]][npm-url] [![Dependency Status][david-image]][david-url] [![Build Status][travis-image]][travis-url]
 This allows [Rollup] modules to import hypothetical files passed in as options to the plugin.
 
 ## Installation
 ```bash
-npm install --save-dev rollup-plugin-hypothetical
+npm install --save-dev rollup-plugin-hypothetical-windows-fix
 ```
 
 ## Usage
 ```js
 // rollup.config.js
-import hypothetical from 'rollup-plugin-hypothetical';
+import hypothetical from 'rollup-plugin-hypothetical-windows-fix';
 
 export default {
   entry: './dir/a.js',
@@ -79,12 +84,12 @@ When this is set to a directory name, relative file paths will be resolved relat
 MIT
 
 
-[npm-url]:    https://npmjs.org/package/rollup-plugin-hypothetical
-[david-url]:  https://david-dm.org/Permutatrix/rollup-plugin-hypothetical
-[travis-url]: https://travis-ci.org/Permutatrix/rollup-plugin-hypothetical
+[npm-url]:    https://npmjs.org/package/rollup-plugin-hypothetical-windows-fix
+[david-url]:  https://david-dm.org/Permutatrix/rollup-plugin-hypothetical-windows-fix
+[travis-url]: https://travis-ci.org/Permutatrix/rollup-plugin-hypothetical-windows-fix
 
-[npm-image]:    https://img.shields.io/npm/v/rollup-plugin-hypothetical.svg
-[david-image]:  https://img.shields.io/david/Permutatrix/rollup-plugin-hypothetical/master.svg
-[travis-image]: https://img.shields.io/travis/Permutatrix/rollup-plugin-hypothetical/master.svg
+[npm-image]:    https://img.shields.io/npm/v/rollup-plugin-hypothetical-windows-fix.svg
+[david-image]:  https://img.shields.io/david/Permutatrix/rollup-plugin-hypothetical-windows-fix/master.svg
+[travis-image]: https://img.shields.io/travis/Permutatrix/rollup-plugin-hypothetical-windows-fix/master.svg
 
 [Rollup]: https://www.npmjs.com/package/rollup

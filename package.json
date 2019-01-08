@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-hypothetical",
+  "name": "rollup-plugin-hypothetical-windows-fix",
   "version": "2.1.0",
   "description": "gives Rollup an imaginary file system, e.g. for testing other plugins",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Permutatrix/rollup-plugin-hypothetical.git"
+    "url": "git+https://github.com/AndyOGo/rollup-plugin-hypothetical.git"
   },
   "keywords": [
     "rollup-plugin"
